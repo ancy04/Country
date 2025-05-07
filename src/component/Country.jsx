@@ -16,7 +16,7 @@ export default function Country(){
       setCountry(jsondata.data);
       }
     )
-    .catch(e=> console.log(e))
+    .catch(e=> console.log("Error fetching data:",e))
   }  
 
   // let temp=["India", "America", "Australia", "London", "Canada", "China", "Korea"];
